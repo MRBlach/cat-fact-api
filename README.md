@@ -88,6 +88,7 @@ Whether you use this project, have learned something from it, or just like it, p
 
 + Thanks to **BootSwatch** for providing [free Bootstrap themes](https://bootswatch.com/)
 + Thanks to **Rajsuthan Official** for providing the [free JavaScript API Tutorial](https://www.youtube.com/watch?v=L4-Immxr9bY)
++ Thanks to **CatFact.ninja** for providing the free [Cat Facts API](https://catfact.ninja/)
 
 ### You may also like..
 
