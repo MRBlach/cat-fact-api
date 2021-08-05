@@ -86,8 +86,8 @@ Whether you use this project, have learned something from it, or just like it, p
 ---
 <h1 id="acknowledgments">Acknowledgments</h1>
 
-+ Thanks to **BootStrap** for providing [free open-source framework](https://getbootstrap.com/)
-+ Thanks to **W3Schools** for providing the [free web building tutorials](https://www.w3schools.com/)
++ Thanks to **BootSwatch** for providing [free Bootstrap themes](https://bootswatch.com/)
++ Thanks to **Rajsuthan Official** for providing the [free JavaScript API Tutorial](https://www.youtube.com/watch?v=L4-Immxr9bY)
 
 ### You may also like..
 

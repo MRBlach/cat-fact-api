@@ -44,16 +44,16 @@ async function showFacts(e) {
     alert('The minimum is 1')
     window.location.reload();
   }
- 
-   const response = await fetch(`https://cat-fact.herokuapp.com/facts/random?animal_type=cat&amount=${numFacts.value}`)
+  
+   const response = await fetch (`https://catfact.ninja/facts?limit=${numFacts.value}`);
 
    const data = await response.json();
-   console.log(data);
+   console.log(data.data);
   let output = '';
   
-  data.forEach(function(data) {
-    console.log(data.text)
-    output += `<li class='p-2' >${data.text}</li>`;
+  data.data.forEach(function(fact) {
+    console.log(fact)
+    output += `<li class='p-2' >${fact.fact}</li>`;
   });
 
  document.querySelector('.facts').innerHTML = output;
