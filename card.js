@@ -19,7 +19,7 @@ class Card {
         </div>
       
         <div class="card-body">
-          <a href="https://alexwohlbruck.github.io/cat-facts/" target="_blank" class="card-link">API Source</a>
+          <a href="https://catfact.ninja/" target="_blank" class="card-link">API Source</a>
         </div>
       </div>
 
