@@ -3,40 +3,43 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Majority of content styled using BootSwatch -->
   <link rel="stylesheet" href="https://bootswatch.com/4/sketchy/bootstrap.min.css">
   <style>
-    input::-webkit-outer-spin-button,
-    input::-webkit-inner-spin-button {
-        -webkit-appearance: none;
-        margin: 0;
+    body {
+      background-image: url('images/hearts.png');
     }
   </style>
   <title>Cat Fact API</title>
 </head>
-<body class="bg-secondary" style="background-image: url('images/hearts.png' )">
+<body class="bg-secondary">
 
+  <!-- Wrap all UI divs -->
   <div class="container">
-    <div class="cardUI"></div>
-    <div class="modalUI"></div>
+
+    <!-- Div for card body shown on initiale page load -->
+    <div class="cardUI">
+      <!-- Contents inserted dynamically through card.js file -->
+    </div>
+
+    <!-- Div for pop up modal to collect user input -->
+    <div class="modalUI">
+      <!-- Contents inserted dynamically through modal.js file -->
+    </div>
+
+    <!-- Div for footer made in 2020 symbol -->
     <div class="footerUI"></div>
   </div>
   
-
-
-
-
-
-
-
-
-
+  <!-- JavaScript tags for BootSwatch styling -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
-  <script src="card.js"></script>
-    <script src="modal.js"></script>
-    <script src="footer.js"></script>
-    <script src="app.js"></script>
+
+  <script src="javascript/card.js"></script>
+  <script src="javascript/modal.js"></script>
+  <script src="javascript/footer.js"></script>
+  <script src="javascript/app.js"></script>
   
 </body>
 </html>

@@ -1,8 +1,10 @@
+// Create a Card class
 class Card {
   constructor() {
+    // Grab the card div from index.html
     this.card = document.querySelector('.cardUI');
   }
-
+  // Output html code for card body shown on initiale page load
   makeCard() {
     this.card.innerHTML = 
    ` <div class="card border-warning my-5 shadow-lg cardCat">
@@ -30,13 +32,11 @@ class Card {
          <button type="button" class="btn btn-outline-danger clearBtn" onclick="location.reload()">Clear</button>
         </div>
       </div>
-    </div>
-
-
-    
+    </div>  
  `
   }
 
+  // Output selected facts html code
   makeFacts() {
     let output = ''
     
@@ -47,11 +47,8 @@ class Card {
        <div class="card-button mx-auto my-2 ">
          <button type="button" class="btn btn-outline-danger clearBtn" onclick="location.reload()">Clear</button>
        </div>
-             
      </div>`
-
+    // Change card body contents to facts list
     document.querySelector('.output').innerHTML = output;
   }
-
-
 }

@@ -12,6 +12,8 @@ Cat Facts API
   </a>
 </p>
 
+**Please Note** This project will need CORS AUTHENTICATION, so I used a CORS enabling extention for Google. You Can find the extention just by searching CORS Enabler.
+
 ## Table of Contents
 
 - [Introduction](#introduction)
