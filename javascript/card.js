@@ -21,7 +21,7 @@ class Card {
         </div>
       
         <div class="card-body">
-          <a href="https://alexwohlbruck.github.io/cat-facts/" target="_blank" class="card-link">API Source</a>
+          <a href="https://catfact.ninja/" target="_blank" class="card-link">API Source</a>
         </div>
       </div>
 
@@ -51,4 +51,10 @@ class Card {
     // Change card body contents to facts list
     document.querySelector('.output').innerHTML = output;
   }
+<<<<<<< HEAD:javascript/card.js
 }
+=======
+
+
+}
+>>>>>>> 0153b3f09c7a402a7221e7c6848d1c17be57c3a5:card.js
