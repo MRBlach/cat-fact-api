@@ -51,10 +51,4 @@ class Card {
     // Change card body contents to facts list
     document.querySelector('.output').innerHTML = output;
   }
-<<<<<<< HEAD:javascript/card.js
 }
-=======
-
-
-}
->>>>>>> 0153b3f09c7a402a7221e7c6848d1c17be57c3a5:card.js
